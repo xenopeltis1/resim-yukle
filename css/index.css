@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+body {
+    font-family: "Rubik", sans-serif;
+    background: #6441a5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6441a5, #2a0845); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6441a5, #2a0845); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 0;
+    margin: 0;
+
+    font-size: 16px;
+}
+
+.giris-kayit {
+    margin-top: 20px;
+    margin-right: 200px!important;
+
+    color: white;
+    
+}
+
+.giris-kayit a {
+    text-decoration: none;
+}
+
+.kayit-butonumsu {
+
+    background-color: #6441a5;
+
+    font-weight: 500;
+
+
+    border-radius: 3px;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.my-logo {
+    width: 50%;
+
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:800px){
+    .my-logo{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+.my-slogan {
+    margin-top: 100px;
+
+    font-size: 2.5rem;
+    color: #c9dad0;
+    margin-bottom: 3vh;
+
+    font-weight: bold;
+}
+
+.my-aciklama {
+    font-size: 15px;
+
+    font-size: 18px;
+    color: #c4cada;
+
+}
+
+.my-resim-yukle {
+    background-color: #fff;
+    margin-top: 50px;
+
+    margin-left: 350px;
+
+    height: 300px auto;
+    border-radius: 12px;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.337);
+
+    margin-bottom: 100px;
+}
+
+.my-resim-yukle:hover {
+    cursor: pointer;
+}
+
+.my-upload-icon{
+    margin-top: 130px;
+    color: #5f6982;
+}
+
+.my-icon{
+    font-size: 50px;
+}
+
+.my-footer {
+    background-color: #2a08457e;
+}
+
+.my-footer-text {
+    font-size: 12px;
+    margin-left: 100px;
+    margin-bottom:0!important;
+    padding: 0!important;
+    color: white;
+    font-weight: bold;
+}
+
+.my-footer-metinim {
+    font-size: 14px;
+    color: white;
+
+    margin-top: -100px;
+    width: 1000px!important;
+
+    margin-bottom: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.my-upload-button {
+    background-color: #6441a5;
+    color: white;
+
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+h6 { 
+    margin-bottom: 30px;
+}
+
+.my-giris {
+
+    margin-top: 50px;
+
+    margin-left: 350px;
+
+    height: 300px auto;
+    border-radius: 12px;
+
+
+    margin-bottom: 100px;
+    color: white;
+}
+
+.my-input {
+    margin-top: 10px;
+}
+
+.my-tt {
+    font-size: 15px;
+    float: left;
+    font-weight: bold;
+}
+
+.my-login-button {
+    width: 620px;
+    background-color: white;
+    background-color: #6441a5;
+}
